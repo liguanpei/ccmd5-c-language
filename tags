@@ -1,0 +1,36 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC_MD5_CTX	./md5.h	/^} CC_MD5_CTX;$/;"	t	typeref:struct:__anon1
+CC_MD5_Final	./md5.c	/^void CC_MD5_Final(unsigned char *result, CC_MD5_CTX *ctx)$/;"	f
+CC_MD5_Init	./md5.c	/^void CC_MD5_Init(CC_MD5_CTX *ctx)$/;"	f
+CC_MD5_Update	./md5.c	/^void CC_MD5_Update(CC_MD5_CTX *ctx, void *data, unsigned long size)$/;"	f
+CC_TOKEN	./ccmd5.c	20;"	d	file:
+F	./md5.c	14;"	d	file:
+G	./md5.c	15;"	d	file:
+GET	./md5.c	38;"	d	file:
+GET	./md5.c	47;"	d	file:
+H	./md5.c	16;"	d	file:
+I	./md5.c	17;"	d	file:
+MD5_HASHBYTES	./ccmd5.c	18;"	d	file:
+MD5_u32plus	./md5.h	/^typedef unsigned int MD5_u32plus;$/;"	t
+SET	./md5.c	36;"	d	file:
+SET	./md5.c	41;"	d	file:
+STEP	./md5.c	22;"	d	file:
+UVID_MAX_LEN	./ccmd5.c	19;"	d	file:
+_MD5_H	./md5.h	29;"	d
+a	./md5.h	/^	MD5_u32plus a, b, c, d;$/;"	m	struct:__anon1
+b	./md5.h	/^	MD5_u32plus a, b, c, d;$/;"	m	struct:__anon1
+block	./md5.h	/^	MD5_u32plus block[16];$/;"	m	struct:__anon1
+body	./md5.c	/^static void *body(CC_MD5_CTX *ctx, void *data, unsigned long size)$/;"	f	file:
+buffer	./md5.h	/^	unsigned char buffer[64];$/;"	m	struct:__anon1
+c	./md5.h	/^	MD5_u32plus a, b, c, d;$/;"	m	struct:__anon1
+cc_getkey	./ccmd5.c	/^int cc_getkey(char *uid, int uid_len, char *vid, int vid_len, char key[])$/;"	f
+cc_md5	./ccmd5.c	/^int cc_md5(char *src, int len, char key[])$/;"	f
+d	./md5.h	/^	MD5_u32plus a, b, c, d;$/;"	m	struct:__anon1
+hi	./md5.h	/^	MD5_u32plus lo, hi;$/;"	m	struct:__anon1
+lo	./md5.h	/^	MD5_u32plus lo, hi;$/;"	m	struct:__anon1
+main	./ccmd5.c	/^int main(int argc, char **argv)  $/;"	f
